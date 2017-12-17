@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Denge Solar - Yenilenebilir Enerji Çözümleri"
+theme = "dersan-hugo-modern-business"
