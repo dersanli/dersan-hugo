@@ -4,5 +4,5 @@ title = "DengeSolar - Yenilenebilir Enerji Çözümleri"
 theme = "dersan-hugo-modern-business"
 
 [params]
-  description = "Güneş Enerjisi, Güneş Panelleri, Solar Panel, Yenilenebilir Enerji, Rüzgar Enerjisi"
-  author = "DengeSolar"
+    description = "Güneş Enerjisi, Güneş Panelleri, Solar Panel, Yenilenebilir Enerji, Rüzgar Enerjisi"
+    author = "DengeSolar"
