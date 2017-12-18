@@ -42,7 +42,7 @@
   <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
   <div class="row">
     <div class="col-lg-8 mb-4">
-      <h3>Bize Mesaj Gönderin</h3>
+      <h3>Mesaj Gönderin</h3>
       <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/info@dengesolar.com" method="POST">
         <div class="control-group form-group">
           <div class="controls">
@@ -60,7 +60,7 @@
         <div class="control-group form-group">
           <div class="controls">
             <label>E-Posta:</label>
-            <input type="email" class="form-control" id="email" name="E-Mail" required data-validation-required-message="Please enter your email address.">
+            <input type="email" class="form-control" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
           </div>
         </div>
         <div class="control-group form-group">
@@ -69,9 +69,11 @@
             <textarea rows="10" cols="100" class="form-control" id="message" name="Message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
           </div>
         </div>
+        <input type="hidden" name="_subject" value="DengeSolar Mesajınız!" />
+        <input type="hidden" name="_language" value="tr" />
         <div id="success"></div>
         <!-- For success/fail messages -->
-        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+        <button type="submit" class="btn btn-primary" id="sendMessageButton">Gönder</button>
       </form>
     </div>
 
