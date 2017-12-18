@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="DengeSolar">
-
     <title>DengeSolar - Bize Ulaşın</title>
-
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/modern-business.css" rel="stylesheet">
     <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -51,7 +49,7 @@
 
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
-      <a href="/index.html">Ana Sayfa</a>
+      <a href="/">Ana Sayfa</a>
     </li>
     <li class="breadcrumb-item active">DengeSolar - Bize Ulaşın</li>
   </ol>
@@ -85,36 +83,38 @@
   
   <div class="row">
     <div class="col-lg-8 mb-4">
-      <h3>Send us a Message</h3>
-      <form name="sentMessage" id="contactForm" novalidate>
+      <h3>Mesaj Gönderin</h3>
+      <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/info@dengesolar.com" method="POST">
         <div class="control-group form-group">
           <div class="controls">
-            <label>Full Name:</label>
-            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+            <label>Ad Soyad:</label>
+            <input type="text" class="form-control" id="name" name="NameSurname" required data-validation-required-message="Please enter your name.">
             <p class="help-block"></p>
           </div>
         </div>
         <div class="control-group form-group">
           <div class="controls">
-            <label>Phone Number:</label>
-            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+            <label>Telefon:</label>
+            <input type="tel" class="form-control" id="phone" name="Phone" required data-validation-required-message="Please enter your phone number.">
           </div>
         </div>
         <div class="control-group form-group">
           <div class="controls">
-            <label>Email Address:</label>
-            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+            <label>E-Posta:</label>
+            <input type="email" class="form-control" id="email" name="E-Mail" required data-validation-required-message="Please enter your email address.">
           </div>
         </div>
         <div class="control-group form-group">
           <div class="controls">
-            <label>Message:</label>
-            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            <label>Mesajınız:</label>
+            <textarea rows="10" cols="100" class="form-control" id="message" name="Message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
           </div>
         </div>
+        <input type="hidden" name="_subject" value="DengeSolar Mesajınız!" />
+        <input type="hidden" name="_language" value="tr" />
         <div id="success"></div>
         
-        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+        <button type="submit" class="btn btn-primary" id="sendMessageButton">Gönder</button>
       </form>
     </div>
 
@@ -127,7 +127,7 @@
     
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; DengeSolar 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; DengeSolar 2017 - Her Hakkı Saklıdır</p>
       </div>
       
     </footer>
