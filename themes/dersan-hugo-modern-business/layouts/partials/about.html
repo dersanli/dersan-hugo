@@ -1,22 +1,12 @@
 <!-- Page Content -->
   <div class="container">
 
-    <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Hakkımızda
-      <small>DengeSolar</small>
-    </h1>
-
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item">
-      <a href="/">Ana Sayfa</a>
-      </li>
-      <li class="breadcrumb-item active">{{ .Title }}</li>
-    </ol>
+  {{ partial "breadcrumb.html" . }}
 
     <!-- Intro Content -->
     <div class="row">
       <div class="col-lg-6">
-        <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+        <img class="img-fluid rounded mb-4" src="/images/{{$.Param "introcontent-picture"}}" alt="">
       </div>
       <div class="col-lg-6">
         <h2><i class="fa fa-sun-o" aria-hidden="true"></i>{{$.Param "introcontent-heading"}}</h2>
@@ -74,25 +64,25 @@
     <!-- /.row -->
 
     <!-- Our Customers -->
-    <h2>Our Customers</h2>
+    <h2>Bazı Referanslarımız</h2>
     <div class="row">
       <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        <img class="img-fluid" src="/images/ref01.png" alt="">
       </div>
       <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        <img class="img-fluid" src="/images/ref02.png" alt="">
       </div>
       <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        <img class="img-fluid" src="/images/ref03.png" alt="">
       </div>
       <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        <img class="img-fluid" src="/images/ref04.png" alt="">
       </div>
       <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        <img class="img-fluid" src="/images/ref05.png" alt="">
       </div>
       <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        <img class="img-fluid" src="/images/ref06.png" alt="">
       </div>
     </div>
     <!-- /.row -->

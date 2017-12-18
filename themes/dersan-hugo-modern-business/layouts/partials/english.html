@@ -1,17 +1,7 @@
     <!-- Page Content -->
     <div class="container">
 
-      <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Full Width
-        <small>Subheading</small>
-      </h1>
-
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="/">Home Page</a>
-        </li>
-        <li class="breadcrumb-item active">English Summary</li>
-      </ol>
+      {{ partial "breadcrumb.html" . }}
 
       <p>{{$.Param "englishcontent-p1"}}</p>
 
