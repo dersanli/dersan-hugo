@@ -2,13 +2,13 @@
 <div class="container">
 
   <!-- Page Heading/Breadcrumbs -->
-  <h1 class="mt-4 mb-3">Services
-    <small>Subheading</small>
+  <h1 class="mt-4 mb-3">Hizmetlerimiz
+    <small>DengeSolar</small>
   </h1>
 
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
-      <a href="/index.html">Ana Sayfa</a>
+      <a href="/">Ana Sayfa</a>
     </li>
     <li class="breadcrumb-item active">{{ .Title }}</li>
   </ol>
@@ -20,12 +20,12 @@
   <div class="row">
     <div class="col-lg-4 mb-4">
       <div class="card h-100">
-        <h4 class="card-header">Card Title</h4>
+        <h4 class="card-header">{{$.Param "card01-header"}}</h4>
         <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          <p class="card-text">{{$.Param "card01-content"}}</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary">Learn More</a>
+          <a href="#" class="btn btn-primary">Daha Fazla Bilgi</a>
         </div>
       </div>
     </div>

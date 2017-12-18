@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Denge Solar - Yenilenebilir Enerji Çözümleri</title>
+    <title>DengeSolar - Yenilenebilir Enerji Çözümleri</title>
     <link>http://example.org/</link>
-    <description>Recent content on Denge Solar - Yenilenebilir Enerji Çözümleri</description>
+    <description>Recent content on DengeSolar - Yenilenebilir Enerji Çözümleri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Dec 2017 21:37:55 +0300</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Bize Ulaşın</title>
+      <title>DengeSolar - Bize Ulaşın</title>
       <link>http://example.org/contact/</link>
       <pubDate>Sun, 17 Dec 2017 21:37:55 +0300</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Hakkımızda</title>
+      <title>DengeSolar - Hakkımızda</title>
       <link>http://example.org/about/</link>
       <pubDate>Sun, 17 Dec 2017 21:37:55 +0300</pubDate>
       
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Hizmetlerimiz</title>
+      <title>DengeSolar - Hizmetlerimiz</title>
       <link>http://example.org/services/</link>
       <pubDate>Sun, 17 Dec 2017 21:37:55 +0300</pubDate>
       
