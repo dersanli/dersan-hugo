@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DengeSolar - Yenilenebilir Enerji Çözümleri</title>
-    <link>http://example.org/</link>
+    <link>http://www.dengesolar.com/</link>
     <description>Recent content on DengeSolar - Yenilenebilir Enerji Çözümleri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Dec 2017 21:37:55 +0300</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.dengesolar.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DengeSolar - Bize Ulaşın</title>
-      <link>http://example.org/contact/</link>
+      <link>http://www.dengesolar.com/contact/</link>
       <pubDate>Sun, 17 Dec 2017 21:37:55 +0300</pubDate>
       
-      <guid>http://example.org/contact/</guid>
+      <guid>http://www.dengesolar.com/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DengeSolar - English</title>
-      <link>http://example.org/en/</link>
+      <link>http://www.dengesolar.com/en/</link>
       <pubDate>Sun, 17 Dec 2017 21:37:55 +0300</pubDate>
       
-      <guid>http://example.org/en/</guid>
+      <guid>http://www.dengesolar.com/en/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DengeSolar - Hakkımızda</title>
-      <link>http://example.org/about/</link>
+      <link>http://www.dengesolar.com/about/</link>
       <pubDate>Sun, 17 Dec 2017 21:37:55 +0300</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>http://www.dengesolar.com/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DengeSolar - Hizmetlerimiz</title>
-      <link>http://example.org/services/</link>
+      <link>http://www.dengesolar.com/services/</link>
       <pubDate>Sun, 17 Dec 2017 21:37:55 +0300</pubDate>
       
-      <guid>http://example.org/services/</guid>
+      <guid>http://www.dengesolar.com/services/</guid>
       <description></description>
     </item>
     

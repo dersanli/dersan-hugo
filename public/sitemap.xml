@@ -3,38 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/contact/</loc>
+    <loc>http://www.dengesolar.com/contact/</loc>
     <lastmod>2017-12-17T21:37:55+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/</loc>
+    <loc>http://www.dengesolar.com/en/</loc>
     <lastmod>2017-12-17T21:37:55+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>http://www.dengesolar.com/about/</loc>
     <lastmod>2017-12-17T21:37:55+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/services/</loc>
+    <loc>http://www.dengesolar.com/services/</loc>
     <lastmod>2017-12-17T21:37:55+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://www.dengesolar.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://www.dengesolar.com/</loc>
     <lastmod>2017-12-17T21:37:55+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://www.dengesolar.com/tags/</loc>
     <priority>0</priority>
   </url>
   

@@ -9,3 +9,31 @@
   </li>
   <li class="breadcrumb-item active">{{$.Param "shorttitle"}}</li>
 </ol>
+
+<script type="application/ld+json">
+    {
+     "@context": "http://schema.org",
+     "@type": "BreadcrumbList",
+     "itemListElement":
+     [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "item":
+       {
+        "@id": "http://www.dengesolar.com/",
+        "name": "Ana Sayfa"
+        }
+      },
+      {
+       "@type": "ListItem",
+      "position": 2,
+      "item":
+       {
+         "@id": "http://www.dengesolar.com{{ .URL }}",
+         "name": "{{$.Param "shorttitle"}}"
+       }
+      }
+     ]
+    }
+</script>
