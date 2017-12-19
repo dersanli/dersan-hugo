@@ -2,6 +2,7 @@ baseURL = "http://www.dengesolar.com/"
 languageCode = "en-us"
 title = "DengeSolar - Yenilenebilir Enerji Çözümleri"
 theme = "dersan-hugo-modern-business"
+enableRobotsTXT = "true"
 
 [params]
     description = "Güneş Enerjisi, Güneş Panelleri, Solar Panel, Yenilenebilir Enerji, Rüzgar Enerjisi"
