@@ -1,17 +1,9 @@
-<!-- Page Content -->
 <div class="container">
-
   {{ partial "breadcrumb.html" . }}
-
-  <!-- Content Row -->
   <div class="row">
-    <!-- Map Column -->
     <div class="col-lg-8 mb-4">
-      <!-- Embedded Google Map -->
-      <!-- <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe> -->
       <iframe allowfullscreen frameborder="0" width="100%" height="400" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD7op3Wa7ikIocpl_vByx0IbeZrX0n7I3M&amp;q=Tepe+Prime%2C+Ankara%2C+Turkey&amp;zoom=15"></iframe>
     </div>
-    <!-- Contact Details Column -->
     <div class="col-lg-4 mb-4">
       <h3>Ulaşım Bilgileri / Address</h3>
       <p>
@@ -26,10 +18,6 @@
       </p>
     </div>
   </div>
-  <!-- /.row -->
-
-  <!-- Contact Form -->
-  <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
   <div class="row">
     <div class="col-lg-8 mb-4">
       <h3>Mesaj Gönderin / Send Message</h3>
@@ -61,14 +49,8 @@
         </div>
         <input type="hidden" name="_subject" value="DengeSolar Mesajınız!" />
         <input type="hidden" name="_language" value="tr" />
-        <div id="success"></div>
-        <!-- For success/fail messages -->
         <button type="submit" class="btn btn-primary" id="sendMessageButton">Gönder / Send</button>
       </form>
     </div>
-
   </div>
-  <!-- /.row -->
-
 </div>
-<!-- /.container -->
