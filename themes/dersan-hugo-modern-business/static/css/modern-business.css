@@ -33,3 +33,7 @@ body {
   font: normal 64px/normal Verdana, Geneva, sans-serif;
   color: rgba(255,255,255,1);
 }
+
+.bgimg01 {
+    background-image: url('/images/structural-design.jpg');
+}
