@@ -1,3 +1,6 @@
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jqBootstrapValidation.js"></script>
+
 <div class="container">
   {{ partial "breadcrumb.html" . }}
   <div class="row">
@@ -24,27 +27,27 @@
       <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/info@dengesolar.com" method="POST">
         <div class="control-group form-group">
           <div class="controls">
-            <label>Ad Soyad / Name:</label>
-            <input type="text" class="form-control" id="name" name="NameSurname" required data-validation-required-message="Please enter your name.">
+            <label>Ad Soyad / Full Name:</label>
+            <input type="text" class="form-control" id="name" name="NameSurname" required data-validation-required-message="Lütfen Adınızı Yazınız / Please Enter Your Name">
             <p class="help-block"></p>
           </div>
         </div>
         <div class="control-group form-group">
           <div class="controls">
             <label>Telefon / Phone:</label>
-            <input type="tel" class="form-control" id="phone" name="Phone" required data-validation-required-message="Please enter your phone number.">
+            <input type="tel" class="form-control" id="phone" name="Phone" required data-validation-required-message="Lütfen Telefon No Belirtiniz / Please Enter Your Phone Number">
           </div>
         </div>
         <div class="control-group form-group">
           <div class="controls">
             <label>E-Posta / E-Mail:</label>
-            <input type="email" class="form-control" id="email" name="E-Mail" required data-validation-required-message="Please enter your email address.">
+            <input type="email" class="form-control" id="email" name="E-Mail" required data-validation-required-message="Lütfen E-Posta Adresi Belirtiniz / Please Enter Your E-Mail Address">
           </div>
         </div>
         <div class="control-group form-group">
           <div class="controls">
             <label>Mesajınız / Message:</label>
-            <textarea rows="10" cols="100" class="form-control" id="message" name="Message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            <textarea rows="10" cols="100" class="form-control" id="message" name="Message" required data-validation-required-message="Lütfen Mesajınızı Yazınız / Please Enter Your Message" maxlength="999" style="resize:none"></textarea>
           </div>
         </div>
         <input type="hidden" name="_subject" value="DengeSolar Mesajınız!" />
@@ -54,3 +57,6 @@
     </div>
   </div>
 </div>
+<script>
+  $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+</script>
