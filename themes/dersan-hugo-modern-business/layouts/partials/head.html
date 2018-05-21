@@ -17,6 +17,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/modern-business.css" rel="stylesheet">
     <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    {{if .IsHome}}{{ $.Site.Params.canonical }}
     <script type="application/ld+json">
         {
           "@context": "http://schema.org",
