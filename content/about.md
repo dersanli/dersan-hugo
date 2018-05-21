@@ -10,4 +10,5 @@ introcontent-p1: "2002 yılından beri enerji ve otomasyon sektöründe yer alan
 introcontent-p2: "Kaliteyi ön planda tutan hizmet anlayışı ve gelişmiş teknik donanımı ile güneş ve rüzgar enerjisi santralleri için, fizibilite çalışması yaparak, projelendirme, analiz, mühendislik hizmetinin yanı sıra materyal ve ekipman tedarikinde bulunmaktadır."
 introcontent-p3: "Sistem tasarımı ve uygulamaları, yazılım ve donanım tasarımı, montaj ve devreye alma hizmetleri ile anahtar teslimi yenilenebilir enerji santral kurulumu yapmaktadır."
 introcontent-picture: "solarwind.jpg"
+canonical: "https://www.dengesolar.com/about.html"
 ---
