@@ -2,6 +2,7 @@
 title: "DengeSolar - Hakkımızda"
 shorttitle: "Hakkımızda"
 description: "DengeSolar - Solar Panels - Güneş Panel - Rüzgar Türbin - About Us - Firma Hakkında"
+canonical: "https://www.dengesolar.com/about.html"
 type: "about"
 date: 2017-12-17T21:37:55+03:00
 draft: false
@@ -10,5 +11,4 @@ introcontent-p1: "2002 yılından beri enerji ve otomasyon sektöründe yer alan
 introcontent-p2: "Kaliteyi ön planda tutan hizmet anlayışı ve gelişmiş teknik donanımı ile güneş ve rüzgar enerjisi santralleri için, fizibilite çalışması yaparak, projelendirme, analiz, mühendislik hizmetinin yanı sıra materyal ve ekipman tedarikinde bulunmaktadır."
 introcontent-p3: "Sistem tasarımı ve uygulamaları, yazılım ve donanım tasarımı, montaj ve devreye alma hizmetleri ile anahtar teslimi yenilenebilir enerji santral kurulumu yapmaktadır."
 introcontent-picture: "solarwind.jpg"
-canonical: "https://www.dengesolar.com/about.html"
 ---
