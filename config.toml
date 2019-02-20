@@ -1,6 +1,6 @@
 baseURL = "https://www.dengesolar.com/"
 languageCode = "en-us"
-title = "DengeSolar - Yenilenebilir Enerji Çözümleri"
+title = "Datacloud - Transform your Data"
 theme = "dersan-hugo-modern-business"
 enableRobotsTXT = "true"
 
